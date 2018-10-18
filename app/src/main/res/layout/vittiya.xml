@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/imageView"
+    android:layout_gravity="top"
+    android:background="@drawable/top"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image"
+            android:layout_gravity="top"
+            android:background="@drawable/vt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Recent experience in the country has established that moving towards a cashless economy where people minimise or almost completely avoid the use of cash for meeting their periodic financial commitments would usher tremendous benefits to the country by way of eliminating black money, enhance government tax compliance and revenues for development, seriously eradicate counterfeit currency and enhance value of money held by the common man. It is in the paramount interest of both Government and citizens to collectively work towards a digitally enabled, cashless economic system as it would bring in transparency, genuine economic growth and eliminate forces threatening national security. Hence it is important for the nation to digitally educate and empower itself so that the undiluted benefits of growth accrue to the people at large. \n\n
+
+The Ministry of HRD recognises that a mega effort needs to be made in mission mode, to use the network of knowledge institutions for propagating the benefits of a cashless, digital means of payment, both within the knowledge institutions themselves and in their neighbourhood.\n\n
+
+This campaign would first be carried out in 500 cities of India where bulk of the cash transactions take place. The educational institutions would be the engines of this transformation effort.\n\n
+
+The campaign will involve the major knowledge institutions like IITs, NITs, IIITs, IISERs and Central Universities and colleges with the students, NSS and NCC volunteers, along with the faculty / staff playing the role of transforming their immediate day to day living environment into a cashless mode. About 18,000 knowledge institutions are to be involved in this national level exercise.\n"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

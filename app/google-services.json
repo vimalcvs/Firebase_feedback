@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "330971122311",
+    "firebase_url": "https://firbase-cvs.firebaseio.com",
+    "project_id": "firbase-cvs",
+    "storage_bucket": "firbase-cvs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330971122311:android:627be6ddc15077cb",
+        "android_client_info": {
+          "package_name": "my.com.newapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330971122311-vufqs47g7n5mh96mjsk1q4cogmeoekhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW0tJ5k7cpAMU9IUlWItVwTvWfKkfY78U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#f9babe"
+    android:layout_alignParentStart="false"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/top"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_marginTop="60dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="1. Hostel Accomodation  "
+                        android:textSize="20dp"
+                        android:textColor="#070707"
+                        android:layout_gravity="left"/>
+                    <RatingBar
+                        android:layout_below="@+id/rate_me"
+                        android:id="@+id/ratingBar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:theme="@style/RatingBar"
+                        android:elevation="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="2. Cafeteria  "
+                        android:textSize="20dp"
+                        android:textColor="#070707"
+                        android:layout_gravity="left"/>
+                    <RatingBar
+                        android:layout_below="@+id/rate_me"
+                        android:id="@+id/ratingBar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:theme="@style/RatingBar"
+                        android:elevation="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="3. Institute Campus  "
+                        android:textSize="20dp"
+                        android:textColor="#070707"
+                        android:layout_gravity="left"/>
+                    <RatingBar
+                        android:layout_below="@+id/rate_me"
+                        android:id="@+id/ratingBar3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:theme="@style/RatingBar"
+                        android:elevation="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="4. Library  "
+                        android:textSize="20dp"
+                        android:textColor="#070707"
+                        android:layout_gravity="left"/>
+                    <RatingBar
+                        android:layout_below="@+id/rate_me"
+                        android:id="@+id/ratingBar4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:theme="@style/RatingBar"
+                        android:elevation="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="5. Internet facility  "
+                        android:textSize="20dp"
+                        android:textColor="#070707"
+                        android:layout_gravity="left"/>
+                    <RatingBar
+                        android:layout_below="@+id/rate_me"
+                        android:id="@+id/ratingBar5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:theme="@style/RatingBar"
+                        android:elevation="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="6. Hygiene  "
+                        android:textSize="20dp"
+                        android:textColor="#070707"
+                        android:layout_gravity="left"/>
+                    <RatingBar
+                        android:layout_below="@+id/rate_me"
+                        android:id="@+id/ratingBar6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:theme="@style/RatingBar"
+                        android:elevation="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="7. Hospitality  "
+                        android:textSize="20dp"
+                        android:textColor="#070707"
+                        android:layout_gravity="left"/>
+                    <RatingBar
+                        android:layout_below="@+id/rate_me"
+                        android:id="@+id/ratingBar7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:theme="@style/RatingBar"
+                        android:elevation="10dp"/>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Submit"
+                    android:padding="10dp"
+                    android:background="@drawable/button_styling"
+                    android:id="@+id/submit" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+</RelativeLayout>
+

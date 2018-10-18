@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#9dbdf9">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/styling"
+        android:elevation="10dp"
+        android:padding="20dp"
+        android:clipToPadding="false">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:minWidth="250dp"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:inputType="textCapWords|textPersonName"
+            android:id="@+id/name"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="E-mail id"
+            android:maxLines="1"
+            android:minWidth="250dp"
+            android:maxWidth="250dp"
+            android:id="@+id/email"
+            android:editable="false"
+            android:textColor="#6d6d6d"
+            android:clickable="false"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Institute"
+            android:maxLines="1"
+            android:minWidth="250dp"
+            android:maxWidth="250dp"
+            android:inputType="textCapWords|text"
+            android:id="@+id/clg"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Contact number"
+            android:maxLines="1"
+            android:minWidth="250dp"
+            android:inputType="phone"
+            android:maxWidth="250dp"
+            android:id="@+id/num"
+            android:phoneNumber="true"
+            android:maxLength="10"
+            android:numeric="signed"
+            android:singleLine="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:text="submit"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_styling"
+            android:elevation="5dp"
+            android:padding="5dp" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/top"/>
+</RelativeLayout>

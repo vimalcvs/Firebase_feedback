@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="top"
+        android:background="@drawable/top"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/image"
+                android:layout_gravity="top"
+                android:background="@drawable/sw"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Swachh Bharat Abhiyan abbreviated as SBA or SBM, is a national campaign by the Government of India, covering 4,041 statutory cities and towns, to clean the streets, roads and infrastructure of the country. \n\n
+The campaign was officially launched on 2 October 2014 at Rajghat, New Delhi, by Prime Minister Narendra Modi. It is India's biggest ever cleanliness drive with 3 million government employees and school and college students of India participating in this event.\n\n
+With effect from 1 April 1999, the Government of India restructured the Comprehensive Rural Sanitation Programme and launched the Total Sanitation Campaign (TSC) which was later (on 1 April 2012) renamed Nirmal Bharat Abhiyan (NBA). \n\n
+On 2 October 2014, Prime Minister of India Narendra Modi launched the Swachh Bharat Mission, which aims to eradicate open defecation by 2019, thus restructuring the Nirmal Bharat Abhiyan. Swachh Bharat Abhiyan is a national campaign, covering 4,041 statutory cities and towns. \n\n
+The government is aiming to achieve an Open-Defecation Free (ODF) India by 2 October 2019, the 150th birth anniversary of Mahatma Gandhi, by constructing 12 million toilets in rural India, at a projected cost of ₹1.96 lakh crore (US$29 billion). \n\n
+"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
